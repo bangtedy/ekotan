@@ -1,4 +1,4 @@
-baseurl: https://bangtedy.github.io/ekotan
+baseurl: https://bangtedy.github.io/etan
 languageCode: en-us
 title: Ekonomi Pertanian
 theme: "hugo-ivy"
@@ -18,10 +18,10 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
-    - name: "About"
+    - name: "Sekilas"
       url: "/about/"
       weight: 2
-    - name: "Categories"
+    - name: "Kategori"
       url: "/categories/"
       weight: 3
     - name: "Tags"

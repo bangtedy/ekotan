@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ekonomi Pertanian</title>
-    <link>https://bangtedy.github.io/ekotan/categories/</link>
+    <link>https://bangtedy.github.io/etan/categories/</link>
     <description>Recent content in Categories on Ekonomi Pertanian</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bangtedy.github.io/ekotan/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://bangtedy.github.io/etan/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

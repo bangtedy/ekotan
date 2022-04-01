@@ -2,13 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bangtedy.github.io/ekotan/about/</loc>
+    <loc>https://bangtedy.github.io/etan/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/tags/pembangunan-ekonomi/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/tags/peran-pertanian/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/post/2022/04/01/peran-pertanian-dalam-pembangunan-ekonomi/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/post/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/tags/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bangtedy.github.io/etan/about/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bangtedy.github.io/ekotan/categories/</loc>
-  </url><url>
-    <loc>https://bangtedy.github.io/ekotan/</loc>
-  </url><url>
-    <loc>https://bangtedy.github.io/ekotan/tags/</loc>
+    <loc>https://bangtedy.github.io/etan/categories/</loc>
   </url>
 </urlset>

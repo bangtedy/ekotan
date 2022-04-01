@@ -2,20 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Ekonomi Pertanian</title>
-    <link>https://bangtedy.github.io/ekotan/</link>
+    <link>https://bangtedy.github.io/etan/</link>
     <description>Recent content in Home on Ekonomi Pertanian</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bangtedy.github.io/ekotan/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bangtedy.github.io/etan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peran Pertanian Dalam Pembangunan Ekonomi</title>
+      <link>https://bangtedy.github.io/etan/post/2022/04/01/peran-pertanian-dalam-pembangunan-ekonomi/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bangtedy.github.io/etan/post/2022/04/01/peran-pertanian-dalam-pembangunan-ekonomi/</guid>
+      <description>Kompetensi UmumSetelah selesai mempelajari modul ini, mahasiswa mampu menjelaskan menjelaskanesensi utama dari ekonomi pertanian.
+Kompetensi KhususMenjelaskan esensi dari ekonomi pertanian dalam kehidupan sehari-hariMenjelaskan ruang lingkup ilmu ekonomi, khusus tentang kelangkaan sumber daya dan pilihan yang harus diambil seorang manusia.Kegiatan BelajarA. Ruang Lingkup EkonomiIlmu ekonomi adalah suatu cabang ilmu yang mempelajari penggunaan sumber daya yang “langka” untuk memenuhi keinginan manusia yang tidak terbatas.</description>
+    </item>
+    
     <item>
       <title>Sekilas Tentang Ekonomi Pertanian</title>
-      <link>https://bangtedy.github.io/ekotan/about/</link>
+      <link>https://bangtedy.github.io/etan/about/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bangtedy.github.io/ekotan/about/</guid>
+      <guid>https://bangtedy.github.io/etan/about/</guid>
       <description>Nama Mata Kuliah: Ekonomi Pertanian
 Kode Mata Kuliah/SKS: ESPA4415/3 SKS
 Tutor: Tedy Herlambang
-Capaian Pembelajaran </description>
+Deskripsi Mata Kuliah Matakuliah Ekonomi Pertanian ini dimaksudkan untuk memberikan pengantar pemahaman tentang peliknya persoalan ekonomi pertanian di Indonesia.
+Pembahasan meliputi peran pertanian dalam perekonomian, tingkah laku konsumen dan teori permintaan, tingkah laku produsen petani dan pelaku usaha pertanian, serta pasar produk pertanian dalam skema persaingan sempurna dan persaingan tidak sempurna.
+Buku Rujukan Utama
+ Arifin, Bustanul. 2017.</description>
     </item>
     
   </channel>
