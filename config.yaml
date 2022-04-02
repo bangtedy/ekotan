@@ -21,12 +21,12 @@ menu:
     - name: "Sekilas"
       url: "/about/"
       weight: 2
-    - name: "Kategori"
-      url: "/categories/"
-      weight: 3
-    - name: "Tags"
-      url: "/tags/"
-      weight: 4
+    #- name: "Kategori"
+    #  url: "/categories/"
+    #  weight: 3
+    #- name: "Tags"
+    #  url: "/tags/"
+    #  weight: 4
     - name: "Subscribe"
       url: "/index.xml"
 
