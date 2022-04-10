@@ -1,27 +1,31 @@
 ---
-title: Peran Pertanian Dalam Pembangunan Ekonomi
+title: Apa itu Ekonomi Pertanian?
 author: Tedy Herlambang
 date: '2022-04-01'
-slug: peran-pertanian-dalam-pembangunan-ekonomi
+slug: apa-itu-ekonomi-pertanian
 categories: []
 tags:
-  - peran pertanian
-  - pembangunan ekonomi
+  - ekonomi pertanian
+  - ruang lingkup ekonomi
 ---
 
-### Kompetensi Umum
+```{r load_packages, echo=FALSE}
+library('fontawesome')
+```
+
+### `r fa("readme")` Kompetensi Umum
 
 Setelah selesai mempelajari modul ini, mahasiswa mampu menjelaskan menjelaskan
 esensi utama dari ekonomi pertanian.
  
-### Kompetensi Khusus
+### `r fa("readme")` Kompetensi Khusus
 
 1. Menjelaskan esensi dari ekonomi pertanian dalam kehidupan sehari-hari
 2. Menjelaskan ruang lingkup ilmu ekonomi, khusus tentang kelangkaan sumber daya dan pilihan yang harus diambil seorang manusia.
 
 ---
 
-### Kegiatan Belajar
+## `r emo::ji('books')` KEGIATAN BELAJAR
 
 ### A. Ruang Lingkup Ekonomi
 
@@ -150,7 +154,7 @@ Salah satu kata kunci dalam memahami ilmu ekonomi pertanian dan ilmu ekonomi sec
 
 
 <!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/etan" data-a2a-title="Peran Pertanian Dalam Pembangunan Ekonomi">
+<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/etan" data-a2a-title="Apa itu ekonomi pertanian?">
 <a class="a2a_button_whatsapp"></a>
 <a class="a2a_button_telegram"></a>
 <a class="a2a_button_facebook"></a>

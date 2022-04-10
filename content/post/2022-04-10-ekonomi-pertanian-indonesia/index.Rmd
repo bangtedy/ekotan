@@ -1,0 +1,10 @@
+---
+title: Ekonomi Pertanian Indonesia
+author: Tedy Herlambang
+date: '2022-04-10'
+slug: ekonomi-pertanian-indonesia
+categories: []
+tags:
+  - ekonomi pertanian
+  - Indonesia
+---
