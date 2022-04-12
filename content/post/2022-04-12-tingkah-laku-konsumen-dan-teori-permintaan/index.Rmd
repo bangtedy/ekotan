@@ -1,0 +1,64 @@
+---
+title: Tingkah Laku Konsumen dan Teori Permintaan
+author: Tedy Herlambang
+date: '2022-04-12'
+slug: tingkah-laku-konsumen-dan-teori-permintaan
+categories:
+  - materi
+tags:
+  - tingkah laku konsumen
+  - teori permintaan
+---
+
+
+```{r load_packages, echo=FALSE}
+library('fontawesome')
+```
+
+### `r fa("readme")` PENDAHULUAN
+
+Modul 3 ini secara khusus membahas tingkah laku konsumen dan teori permintaan dalam ekonomi pertanian. Secara umum setelah mempelajari modul 3 ini dengan baik Anda diharapkan mampu menjelaskan esensi utama dari tingkah laku konsumen dan permintaan. Secara khusus, setelah mempelajari Modul 2 ini, Anda diharapkan mampu:
+
+- [x] menjelaskan teori utilitas yang meliputi utilitas total, utilitas marjinal dan hukum utilitas marjinal yang semakin berkurang. 
+
+- [x] menjelaskan teori pilihan konsumen yang meliputi kurva indeferens, garis anggaran dan keseimbangan konsumen.
+
+- [x] menjelaskan teori permintaan yang meliputi skedul permintaan, elastisitas harga, selera dan preferensi.
+
+- [x] menjelaskan konsep, pengukuran dan interpretasi elastisitas permintaan.
+
+
+
+## `r emo::ji('books')` KEGIATAN BELAJAR
+
+### Teori Utilitas
+
+A. TEORI UTILITAS
+
+B. TEORI PILIHAN KONSUMEN
+
+C. LAJU SUBSTITUSI MARJINAL
+
+D. KETERBATASAN ANGGARAN
+
+E. KESEIMBANGAN KONSUMEN
+
+F. PERUBAHAN KESEIMBANGAN
+
+G. TEORI PERMINTAAN
+
+H. PENGUKURAN DAN INTERPRETASI ELASTISITAS
+
+
+
+
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_16 a2a_default_style"; data-a2a-url="https://bangtedy.github.io/etan" data-a2a-title="Tingkah Laku Konsumen dan Teori Permintaan">
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_telegram"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
