@@ -51,7 +51,7 @@ important to economic decision making are marginal costs.
 
 
 ![](51-cost-relationships.png)
-`Sumber: Pension (2018)`
+`Sumber: Penson, et.al. (2018)`
 
 <br />
 
@@ -81,7 +81,7 @@ $$marginal\ revenue = marginal\ cost$$
 difference between price and average total cost.
 
 ![](profit-max.png)
-`Sumber: Pension (2018)`
+`Sumber: Penson, et.al. (2018)`
 
 ### C. PENURUNAN KURVA PENAWARAN
 
@@ -90,7 +90,7 @@ difference between price and average total cost.
 average variable cost curve.
 
 ![](firm-supply-curve.png)
-`Sumber: Pension (2018)`
+`Sumber: Penson, et.al. (2018)`
 
 
 - Market supply curve: the market supply curve for a particular product is based on the decisions of what and how much to produce made by individual businesses in an industry.
@@ -99,7 +99,7 @@ would be willing to supply for specific prices.
 
 ![](market-supply-curve.png)
 
-`Sumber: Pension (2018)`
+`Sumber: Penson, et.al. (2018)`
 
 ### D. UKURAN ELASTISITAS PENAWARAN
 
