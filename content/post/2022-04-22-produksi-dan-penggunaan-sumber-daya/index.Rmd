@@ -25,7 +25,8 @@ Modul 4 ini membahas tingkah laku produsen pertanian, khususnya petani dan pelak
 - `r emo::ji('check')` menjelaskan konsep dan interpretasi elastisitas produksi
 - `r emo::ji('check')` menjelaskan keputusan ekonomi dengan maksimisasi keuntungan
 
----
+<br />
+
 
 ## `r emo::ji('books')` KEGIATAN BELAJAR 1: Produksi dan Penggunaan Sumber Daya
 
@@ -90,6 +91,7 @@ p= harga output
 - Faktor produksi paling sensitif di Indonesia
 
 
+<br />
 <br />
 
 <!-- AddToAny BEGIN -->
