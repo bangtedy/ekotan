@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://bangtedy.github.io/etan/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -89,28 +88,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Ekonomi Pertanian: Materi</title>
+  <title>Ekonomi Pertanian: Sekilas Tentang Ekonomi Pertanian</title>
 
+  <meta property="description" itemprop="description" content="Kode Mata Kuliah/SKS: ESPA4415/3 SKS"/>
 
-  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Ekonomi Pertanian: Materi"/>
+  <meta property="og:title" content="Ekonomi Pertanian: Sekilas Tentang Ekonomi Pertanian"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Kode Mata Kuliah/SKS: ESPA4415/3 SKS"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Ekonomi Pertanian"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Ekonomi Pertanian: Materi"/>
+  <meta property="twitter:title" content="Ekonomi Pertanian: Sekilas Tentang Ekonomi Pertanian"/>
+  <meta property="twitter:description" content="Kode Mata Kuliah/SKS: ESPA4415/3 SKS"/>
   <meta property="twitter:site" content="@t_hlb"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing","creative_commons"]}},"value":[{"type":"character","attributes":{},"value":["Materi"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"character","attributes":{},"value":["CC BY"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Sekilas Tentang Ekonomi Pertanian"]},{"type":"character","attributes":{},"value":["Kode Mata Kuliah/SKS: ESPA4415/3 SKS"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2419,12 +2420,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Materi","authors":[]}
+{"title":"Sekilas Tentang Ekonomi Pertanian","description":"Kode Mata Kuliah/SKS: ESPA4415/3 SKS","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2445,243 +2446,40 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Materi">Materi</h1>
-<a href="posts/2022-05-18-pengambilan-keputusan-ekonomi/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">May 14, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Tedy Herlambang</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Pengambilan Keputusan Ekonomi</h2>
-<div class="dt-tags"></div>
-<p>Biaya, penerimaan dan keuntungan.</p>
-</div>
-</a>
-<a href="posts/2022-04-22-produksi-dan-penggunaan-sumber-daya/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 22, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Tedy Herlambang</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Produksi dan Penggunaan Sumber Daya</h2>
-<div class="dt-tags"></div>
-<p>Tingkah laku produsen pertanian.</p>
-</div>
-</a>
-<a href="posts/2022-05-18-tingkah-laku-konsumen-dan-teori-permintaan/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 12, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Tedy Herlambang</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Tingkah Laku Konsumen dan Teori Permintaan</h2>
-<div class="dt-tags"></div>
-<p>Dari utilitas, pilihan ke permintaan.</p>
-</div>
-</a>
-<a href="posts/2022-05-18-ekonomi-pertanian-indonesia/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 10, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Tedy Herlambang</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Ekonomi Pertanian Indonesia</h2>
-<div class="dt-tags"></div>
-<p>Kinerja dan Prospek Masa Depan</p>
-</div>
-</a>
-<a href="posts/2022-05-18-apa-itu-ekonomi-pertanian/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 1, 2022</div>
-<div class="dt-authors">
-<div class="dt-author">Tedy Herlambang</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Apa itu Ekonomi Pertanian?</h2>
-<div class="dt-tags"></div>
-<p>Esensi Ekonomi Pertanian</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Materi</h1>
+<h1>Sekilas Tentang Ekonomi Pertanian</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Kode Mata Kuliah/SKS: ESPA4415/3 SKS</p></p>
 </div>
 
 
 <div class="d-article">
+<p>Tutor: <a href="https://bangtedy.github.io">Tedy Herlambang</a></p>
+<h3 id="deskripsi-mata-kuliah">Deskripsi Mata Kuliah</h3>
+<p>Matakuliah Ekonomi Pertanian ini dimaksudkan untuk memberikan
+pengantar pemahaman tentang peliknya persoalan ekonomi pertanian di
+Indonesia.</p>
+<p>Pembahasan meliputi peran pertanian dalam perekonomian, tingkah laku
+konsumen dan teori permintaan, tingkah laku produsen petani dan pelaku
+usaha pertanian, serta pasar produk pertanian dalam skema persaingan
+sempurna dan persaingan tidak sempurna.</p>
+<p>Buku Rujukan Utama</p>
+<ol type="1">
+<li>Arifin, Bustanul. 2017. Ekonomi Pertanian, edisi ke 2. Penerbit
+Universitas Terbuka.</li>
+</ol>
+<p>Buku Rujukan Tambahan:</p>
+<ol type="1">
+<li><p>Barkley, Andrew, dan Paul W. Barkley. 2013. Principles of
+agricultural economics. Routledge.</p></li>
+<li><p>Drummond, H. Evan dan John W. Goodwin. 2014. Agricultural
+Economics, edisi ketiga. Pearson.</p></li>
+<li><p>Penson, John B. Penson, Jr., Oral Capps, Jr., C. Parr Rosson III,
+Richard T. Woodward. 2018. Introduction to Agricultural Economics.
+Pearson.</p></li>
+</ol>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
@@ -2698,8 +2496,6 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <div class="appendix-bottom">
 <h3 id="updates-and-corrections">Corrections</h3>
 <p>If you see mistakes or want to suggest changes, please <a href="https://github.com/bangtedy/etan/issues/new">create an issue</a> on the source repository.</p>
-<h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/bangtedy/etan">https://github.com/bangtedy/etan</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->

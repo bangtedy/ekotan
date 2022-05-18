@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Sekilas Tentang Ekonomi Pertanian",
+      "description": "Kode Mata Kuliah/SKS: ESPA4415/3 SKS",
+      "author": [],
+      "contents": "\r\nTutor: Tedy Herlambang\r\nDeskripsi Mata Kuliah\r\nMatakuliah Ekonomi Pertanian ini dimaksudkan untuk memberikan\r\npengantar pemahaman tentang peliknya persoalan ekonomi pertanian di\r\nIndonesia.\r\nPembahasan meliputi peran pertanian dalam perekonomian, tingkah laku\r\nkonsumen dan teori permintaan, tingkah laku produsen petani dan pelaku\r\nusaha pertanian, serta pasar produk pertanian dalam skema persaingan\r\nsempurna dan persaingan tidak sempurna.\r\nBuku Rujukan Utama\r\nArifin, Bustanul. 2017. Ekonomi Pertanian, edisi ke 2. Penerbit\r\nUniversitas Terbuka.\r\nBuku Rujukan Tambahan:\r\nBarkley, Andrew, dan Paul W. Barkley. 2013. Principles of\r\nagricultural economics. Routledge.\r\nDrummond, H. Evan dan John W. Goodwin. 2014. Agricultural\r\nEconomics, edisi ketiga. Pearson.\r\nPenson, John B. Penson, Jr., Oral Capps, Jr., C. Parr Rosson III,\r\nRichard T. Woodward. 2018. Introduction to Agricultural Economics.\r\nPearson.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-18T19:19:47+07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Materi",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-05-18T19:19:49+07:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

@@ -1,0 +1,203 @@
+---
+title: Tingkah Laku Konsumen dan Teori Permintaan
+description: |
+  Dari utilitas, pilihan ke permintaan.
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+date: '2022-04-12'
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+### PENDAHULUAN
+
+Modul 3 ini secara khusus membahas tingkah laku konsumen dan teori permintaan dalam ekonomi pertanian. Secara umum setelah mempelajari modul 3 ini dengan baik Anda diharapkan mampu menjelaskan esensi utama dari tingkah laku konsumen dan permintaan. Secara khusus, setelah mempelajari Modul 2 ini, Anda diharapkan mampu:
+
+- [x] menjelaskan teori utilitas yang meliputi utilitas total, utilitas marjinal dan hukum utilitas marjinal yang semakin berkurang. 
+
+- [x] menjelaskan teori pilihan konsumen yang meliputi kurva indeferens, garis anggaran dan keseimbangan konsumen.
+
+- [x] menjelaskan teori permintaan yang meliputi skedul permintaan, elastisitas harga, selera dan preferensi.
+
+- [x] menjelaskan konsep, pengukuran dan interpretasi elastisitas permintaan.
+
+---
+
+## KEGIATAN BELAJAR
+
+- Proses fotosintesis dapat dilihat dalam konteks stimulus-respon: stimulusnya adalah penambahan cahaya, responnya pertumbuhan tanaman.
+
+- Perilaku ekonomi juga dapat dilihat sebagai konteks stimulus-respons: 
+  + penurunan harga BBM, membuat konsumen membeli lebih banyak BBM.
+  + perbedaannya: proses perilaku ekonomi tidak bisa dipelajari dalam lingkungan yang terkontrol seperti di ilmu biologi, fisika atau kimia.
+  + kita tidak bisa mengamati proses yang menghubungkan stimulus ekonomi dengan keputusan ekonomi yang dibuat. 
+  + The most prominent economic theories of consumer behavior assume that consumers are rational and seek to maximize their satisfaction while staying within their budget. 
+
+In this chapter, we discuss consumer theory and how it can be used to understand the behavior of consumers.
+
+### A. TEORI UTILITAS
+
+**Total Utility**
+
+- Consumers typically face a broad set of choices when allocating their income among
+food and nonfood goods and services.
+- A consumer purchases a good or service because of the satisfaction (utility) he or she expects to receive.
+- Total utility is equal to the total utility derived from each of the individual commodities.
+
+$$ total\,utility = (quantity\,of\, pisang\, goreng * quantity\, of\, lemper) $$
+
+- A utility function is an algebraic expression that allows us to rank a con-
+sumption bundle by the total utility or satisfaction it provides.
+
+**Marginal Utility**
+
+- If utility is measurable, it is appropriate to question how total utility changes as a
+greater (or lesser) amount of a particular good is consumed. 
+- The change in total utility, associated with a specific change in the consumption of a commodity, is referred to as marginal utility (MU).
+
+$$ MU \,pisang\,goreng = \frac {\Delta \, utility} {\Delta \,pisang\,goreng} $$
+- This measure constitutes the change in utility associated with a change in the
+consumption of pisang goreng.
+
+- This value will always be greater than zero only if we assume that the consumer’s appetite never becomes totally satiated. 
+
+- This value will fall as pisang goreng consumption increases; similarly, this value will rise as pisang goreng consumption decreases.
+
+**Law of Diminishing Marginal Utility**
+
+- The law of diminishing marginal utility suggests that as consumption per unit of time increases, marginal utility decreases.
+  + pikirkan tegukan pertama saat minum buka puasa.
+  + tegukan pertama kepuasannya paling tinggi,
+  + tegukan kedua menurun...dst.
+
+
+### B. TEORI PILIHAN KONSUMEN
+
+**Kurva Indeferen**
+
+- The indifference curve or isoutility curve represents the combination of consumption bundles that provide a consumer a given level of satisfaction. 
+
+- A consumer is indifferent to consumption bundles that yield an equal level of satisfaction or utility.
+
+- The slope of the indifference curve is the marginal rate of substitution.
+
+### C. LAJU SUBSTITUSI MARJINAL (*Marginal Rate of Substitution*)
+
+- To maintain a constant level of utility, one must change consumption of one commodity to obtain additional consumption of another; that is, a consumer may substitute one commodity for another to maintain a constant level of utility. 
+- The rate at which the consumer is willing to substitute one good for another is called the marginal rate of substitution. 
+- The marginal rate of substitution of pisang goreng for lemper, for example, represents the number of lemper someone is willing to give up for an additional pisang goreng to maintain the same level of satisfaction
+- In mathematical terms: 
+
+$$ marginal\, rate\, of\, substitution\, of\, cenil\, for\, klepon = \frac {\Delta \,klepon}{\Delta\, cenil\,} $$
+
+### D. KETERBATASAN ANGGARAN (*the BUdget constraint*)
+
+- Consumers face a budget constraint: purchases by a consumer cannot exceed his or her income.
+- The marginal rate of substitution represents the slope for any specific segment
+of an indifference curve for two goods. 
+- The slope is negative, meaning that the marginal rate of substitution is negative.
+  + represents a trade-off of one commodity for another. 
+- We also can equate the marginal rate of substitution of cenil for klepon in Equation with the ratio of their marginal utilities:
+
+$$ \frac {\Delta\, klepon} {\Delta \, cenil} = \frac {MU \,cenil} {MU \, klepon} $$
+
+### E. KESEIMBANGAN KONSUMEN (*consumer equilibrium*)
+
+- The rational consumer is said to be in equilibrium with regard to the consumption
+of two goods when the slope of the budget line (the budget constraint) is equal to the slope of the indifference curve. 
+
+- In mathematical terms:
+
+$$ \frac {price\, of\, klepon}{price\, of\, cenil} = \frac {MU\, cenil}{MU\, klepon} $$
+
+### F. PERUBAHAN KESEIMBANGAN (*Changes in equilibrium*)
+
+- The condition previously stated for consumer equilibrium suggests that the demand
+for each good is influenced by consumer income and all prices.
+- Changes in prices and income will lead to changes in consumer demand for goods and services.
+
+1. Perubahan Harga Produk (*Changes in Product Price*)
+
+- apa yang akan terjadi jika harga cenil naik, yang lain tetap (pendapatan dan harga klepon, biasa disebut *ceteris paribus*).
+  + efek substitusi
+  + efek pendapatan
+
+2. Perubahan Determinan lain (*Changes in Other Demand Determinants*)
+
+- Change in Income
+  + Normal goods are those goods for which a rise (fall) in income will lead to increased (decreased) consumption. Examples of normal goods are gasoline, housing, and steak.
+  + Inferior goods are those goods for which a rise (fall) in income will lead to decreased (increased) consumption. In the past, margarine has been considered to be an inferior good, while butter has been considered a normal good. 
+  + When income rises, consumers tend to eat more butter and less margarine. Riding the bus has always been considered an inferior good relative to other modes of transportation.
+When income increases, consumers purchase their own car, take a taxi, or fly.
+
+- Changes in Other Prices
+  + substitutes
+  + complements
+  + independent goods
+
+
+### G. TEORI PERMINTAAN
+
+1. Permintaan Pasar (*Market Demand*)
+
+- The concept of demand applies to a single individual or firm and to any number of
+individuals or firms. 
+- The economy is composed of a myriad of consumers who make expenditures on many goods.
+- Thus, the sum of all relevant consumers comprises market demand. 
+- The market demand curve is the horizontal summation of individual demand curves.
+
+2. Interpretasi Permintaan Pasar (*Interpretation of Market Demand*)
+
+- Change in Quantity Demanded When consumers change the amounts purchased
+because the price of the product changes, a change in the quantity demanded occurs.
+
+- Change in Demand Although a change in the price of a product will result in move-
+ment along its demand curve, changes in the prices of substitutes and complements or changes in consumer income will cause the demand curve to shift.
+
+3. Selera dan Preferensi (*tastes and preferences*)
+
+- The composition of the population
+- Attitudes toward Nutrition and Health
+- Food safety
+- Lifestyles
+- Technological Forces
+- Advertising and Promotion
+
+### H. PENGUKURAN DAN INTERPRETASI ELASTISITAS
+
+1. Own-price elasticity of demand
+
+$$ elasticity \,of \,demand = \frac {percentage \,change \,in \,quantity}{percentage \,change \,in \,price}$$
+
+- elastic >1
+
+- unitary elastic = 1
+
+- inelastic <1
+
+2.  Income elasticity of demand
+
+$$ income\, elasticity\, of\, demand = \frac {percentage\, change\, in\, quantity}{percentage\, change\, in\, income}$$
+
+- barang normal: positif
+
+- barang inferior: negatif
+
+3. cross-price elasticity of demand
+
+$$ cross\,price\, elasticity\, of\, demand = \frac {percentage\, change\, in\, quantity\, of\, cenil}{percentage\, change\, in\, quantity\, of\, klepon}$$
+
+
+- substitusi: positif
+
+- komplementer: negatif
+
+

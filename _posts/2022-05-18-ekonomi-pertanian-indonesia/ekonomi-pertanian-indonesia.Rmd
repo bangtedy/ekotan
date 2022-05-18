@@ -1,0 +1,37 @@
+---
+title: Ekonomi Pertanian Indonesia
+description: |
+  Kinerja dan Prospek Masa Depan
+author: 
+  - name: Tedy Herlambang
+    url: https://bangtedy.github.io
+    orcid_id: 0000-0002-7296-4357
+date: '2022-04-10'
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+### PENDAHULUAN
+
+Modul 2 ini memberikan penjelasan lebih rinci tentang ekonomi pertanian Indonesia dari sisi ekonomi makro dan mikro. Secara umum setelah mempelajari modul 2 ini dengan baik mahasiswa diharapkan mampu menjelaskan kondisi dan masa depan ekonomi Indonesia. Secara khusus, setelah mempelajari Modul 2 ini, Anda diharapkan mampu:
+
+- [x] menjelaskan kondisi dan masa depan ekonomi pertanian Indonesia
+- [x] menjelaskan kinerja komoditas pertanian strategis di Indonesia
+- [x] menjelaskan faktor skala ekonomi usahatani pada dimensi kesejahteraan
+
+## KEGIATAN BELAJAR
+
+A. PERAN PERTANIAN DALAM PEMBANGUNAN EKONOMI
+
+B. PERTUMBUHAN SEKTOR PERTANIAN
+
+C. PERKEMBANGAN PRODUKSI PANGAN
+
+D. PETANI DAN SKALA USAHATANI
+

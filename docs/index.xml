@@ -1,77 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>Beranda on Ekonomi Pertanian</title>
-    <link>https://bangtedy.github.io/etan/</link>
-    <description>Recent content in Beranda on Ekonomi Pertanian</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bangtedy.github.io/etan/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ekonomi Pertanian</title>
+    <link>https://bangtedy.github.io/etan</link>
+    <atom:link href="https://bangtedy.github.io/etan/index.xml" rel="self" type="application/rss+xml"/>
+    <description>EKMA4415
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Pengambilan Keputusan Ekonomi</title>
-      <link>https://bangtedy.github.io/etan/post/2022/05/14/pengambilan-keputusan-ekonomi/</link>
+      <dc:creator>Tedy Herlambang</dc:creator>
+      <link>https://bangtedy.github.io/etan/posts/2022-05-18-pengambilan-keputusan-ekonomi</link>
+      <description>Biaya, penerimaan dan keuntungan.</description>
+      <guid>https://bangtedy.github.io/etan/posts/2022-05-18-pengambilan-keputusan-ekonomi</guid>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/post/2022/05/14/pengambilan-keputusan-ekonomi/</guid>
-      <description>PENDAHULUANModul ini membahas struktur biaya, penerimaan dan keuntungan usaha tani. Setelah mempelajari Modul ini Anda diharapkan mampu menjelaskan rasionalitas pengambilan keputusan petani dalam jangka pendek dan jangka panjang untuk menambah skala usaha dan meningkatkan daya saing. Secara khusus, Anda diharapkan mampu:
-✅ menjelaskan jenis-jenis biaya dan struktur biaya produksi.✅ menjelaskan keterkaitan biaya dan kinerja produksi.✅ menjelaskan maksimisasi keuntungan dari konsep biaya✅ menjelaskan penurunan fungsi penawaran dari biaya marjinal.</description>
     </item>
-    
     <item>
       <title>Produksi dan Penggunaan Sumber Daya</title>
-      <link>https://bangtedy.github.io/etan/post/2022/04/22/produksi-dan-penggunaan-sumber-daya/</link>
+      <dc:creator>Tedy Herlambang</dc:creator>
+      <link>https://bangtedy.github.io/etan/posts/2022-04-22-produksi-dan-penggunaan-sumber-daya</link>
+      <description>Tingkah laku produsen pertanian.</description>
+      <guid>https://bangtedy.github.io/etan/posts/2022-04-22-produksi-dan-penggunaan-sumber-daya</guid>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/post/2022/04/22/produksi-dan-penggunaan-sumber-daya/</guid>
-      <description>PENDAHULUANModul 4 ini membahas tingkah laku produsen pertanian, khususnya petani dan pelaku pertanian skala perusahaan dalam penggunaan sumber daya yang terbatas pada proses produksi. Setelah mempelajari Modul 4 ini Anda diharapkan mampu menjelaskan esensi utama dari tingkah laku produsen dan penggunaan sumber daya dalam aktivitas produksi pertanian. Secara khusus, setelah mempelajari Modul 4 ini dengan baik, Anda diharapkan mampu:
-✅ menjelaskan kualitas sumber daya pertanian✅ menjelaskan hubungan proses produksi dan sumber daya tersebut✅ menjelaskan konsep dan interpretasi elastisitas produksi✅ menjelaskan keputusan ekonomi dengan maksimisasi keuntungan📚 KEGIATAN BELAJAR 1: Produksi dan Penggunaan Sumber DayaA.</description>
     </item>
-    
     <item>
       <title>Tingkah Laku Konsumen dan Teori Permintaan</title>
-      <link>https://bangtedy.github.io/etan/post/2022/04/12/tingkah-laku-konsumen-dan-teori-permintaan/</link>
+      <dc:creator>Tedy Herlambang</dc:creator>
+      <link>https://bangtedy.github.io/etan/posts/2022-05-18-tingkah-laku-konsumen-dan-teori-permintaan</link>
+      <description>Dari utilitas, pilihan ke permintaan.</description>
+      <guid>https://bangtedy.github.io/etan/posts/2022-05-18-tingkah-laku-konsumen-dan-teori-permintaan</guid>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/post/2022/04/12/tingkah-laku-konsumen-dan-teori-permintaan/</guid>
-      <description>PENDAHULUANModul 3 ini secara khusus membahas tingkah laku konsumen dan teori permintaan dalam ekonomi pertanian. Secara umum setelah mempelajari modul 3 ini dengan baik Anda diharapkan mampu menjelaskan esensi utama dari tingkah laku konsumen dan permintaan. Secara khusus, setelah mempelajari Modul 2 ini, Anda diharapkan mampu:
-menjelaskan teori utilitas yang meliputi utilitas total, utilitas marjinal dan hukum utilitas marjinal yang semakin berkurang.
-menjelaskan teori pilihan konsumen yang meliputi kurva indeferens, garis anggaran dan keseimbangan konsumen.</description>
     </item>
-    
     <item>
       <title>Ekonomi Pertanian Indonesia</title>
-      <link>https://bangtedy.github.io/etan/post/2022/04/10/ekonomi-pertanian-indonesia/</link>
+      <dc:creator>Tedy Herlambang</dc:creator>
+      <link>https://bangtedy.github.io/etan/posts/2022-05-18-ekonomi-pertanian-indonesia</link>
+      <description>Kinerja dan Prospek Masa Depan</description>
+      <guid>https://bangtedy.github.io/etan/posts/2022-05-18-ekonomi-pertanian-indonesia</guid>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/post/2022/04/10/ekonomi-pertanian-indonesia/</guid>
-      <description>PENDAHULUANModul 2 ini memberikan penjelasan lebih rinci tentang ekonomi pertanian Indonesia dari sisi ekonomi makro dan mikro. Secara umum setelah mempelajari modul 2 ini dengan baik mahasiswa diharapkan mampu menjelaskan kondisi dan masa depan ekonomi Indonesia. Secara khusus, setelah mempelajari Modul 2 ini, Anda diharapkan mampu:
-menjelaskan kondisi dan masa depan ekonomi pertanian Indonesiamenjelaskan kinerja komoditas pertanian strategis di Indonesiamenjelaskan faktor skala ekonomi usahatani pada dimensi kesejahteraan📚 KEGIATAN BELAJARA.</description>
     </item>
-    
     <item>
       <title>Apa itu Ekonomi Pertanian?</title>
-      <link>https://bangtedy.github.io/etan/post/2022/04/01/apa-itu-ekonomi-pertanian/</link>
+      <dc:creator>Tedy Herlambang</dc:creator>
+      <link>https://bangtedy.github.io/etan/posts/2022-05-18-apa-itu-ekonomi-pertanian</link>
+      <description>Esensi Ekonomi Pertanian</description>
+      <guid>https://bangtedy.github.io/etan/posts/2022-05-18-apa-itu-ekonomi-pertanian</guid>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/post/2022/04/01/apa-itu-ekonomi-pertanian/</guid>
-      <description>Kompetensi UmumSetelah selesai mempelajari modul ini, mahasiswa mampu menjelaskan menjelaskanesensi utama dari ekonomi pertanian.
- Kompetensi KhususMenjelaskan esensi dari ekonomi pertanian dalam kehidupan sehari-hariMenjelaskan ruang lingkup ilmu ekonomi, khusus tentang kelangkaan sumber daya dan pilihan yang harus diambil seorang manusia.📚 KEGIATAN BELAJARA. Ruang Lingkup EkonomiIlmu ekonomi adalah suatu cabang ilmu yang mempelajari penggunaan sumber daya yang “langka” untuk memenuhi keinginan manusia yang tidak terbatas.</description>
     </item>
-    
-    <item>
-      <title>Sekilas Tentang Ekonomi Pertanian</title>
-      <link>https://bangtedy.github.io/etan/about/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bangtedy.github.io/etan/about/</guid>
-      <description>Nama Mata Kuliah: Ekonomi Pertanian
-Kode Mata Kuliah/SKS: ESPA4415/3 SKS
-Tutor: Tedy Herlambang
-Deskripsi Mata Kuliah Matakuliah Ekonomi Pertanian ini dimaksudkan untuk memberikan pengantar pemahaman tentang peliknya persoalan ekonomi pertanian di Indonesia.
-Pembahasan meliputi peran pertanian dalam perekonomian, tingkah laku konsumen dan teori permintaan, tingkah laku produsen petani dan pelaku usaha pertanian, serta pasar produk pertanian dalam skema persaingan sempurna dan persaingan tidak sempurna.
-Buku Rujukan Utama
- Arifin, Bustanul. 2017.</description>
-    </item>
-    
   </channel>
 </rss>
