@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-05-19-kombinasi-penggunaan-input/",
+    "title": "Kombinasi Penggunaan Input",
+    "description": "Modul 6",
+    "author": [
+      {
+        "name": "Tedy Herlambang",
+        "url": "https://bangtedy.github.io"
+      }
+    ],
+    "date": "2022-05-19",
+    "categories": [],
+    "contents": "\r\nPENDAHULUAN\r\nPada modul ini kita akan memperluas model produksi satu input satu\r\noutput menjadi model multi input. Setelah mempelajari modul ini,\r\nmahasiswa diharapkan mampu menjelaskan konsep kombinasi penggunaan input\r\nlebih dari satu (satu output) dalam produksi pertanian. Secara khusus,\r\nmahasiswa diharapkan mampu menjelaskan:\r\n-[x] konsep isoquant dan laju subtitusi marjinal; -[x] maksimisasi\r\nkeuntungan pada produksi dua input; -[x] maksimisasi keuntungan pada dua\r\ninput tanpa kendala; -[x] maksimisasi keuntungan pada dua input dengan\r\nkendala.\r\n\r\nKEGIATAN BELAJAR\r\nA. PRODUKSI DENGAN DUA INPUT\r\nSecara matematis, produksi dengan dua input dapat dituliskan\r\nsebagai:\r\n\\(y = f(x_1,x_2)\\)\r\nJika input lebih dari dua, input berikutnya ditulis:\r\n\\(y =\r\nf(x_1,x_2/x_3,...,x_n)\\)\r\nB. ISOQUANT\r\nDAN LAJU SUBSTITUSI MARJINAL\r\nC. BENTUK-BENTUK\r\nISOQUANT\r\nD. MAKSIMISASI\r\nKEUNTUNGAN PADA DUA INPUT\r\n1. Maksimisasi Keuntungan\r\ntanpa Kendala\r\n2. Maksimisasi Keuntungan\r\ndengan Kendala\r\nE. PENGGANDA LAGRANGIAN\r\nF. GOVERNANSI EKONOMI PUPUK\r\nMAJEMUK\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-19T09:02:50+07:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-18-pengambilan-keputusan-ekonomi/",
     "title": "Pengambilan Keputusan Ekonomi",
     "description": "Biaya, penerimaan dan keuntungan.",

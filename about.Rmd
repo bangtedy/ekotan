@@ -16,11 +16,28 @@ Matakuliah Ekonomi Pertanian ini dimaksudkan untuk memberikan pengantar pemahama
 
 Pembahasan meliputi peran pertanian dalam perekonomian, tingkah laku konsumen dan teori permintaan, tingkah laku produsen petani dan pelaku usaha pertanian, serta pasar produk pertanian dalam skema persaingan sempurna dan persaingan tidak sempurna.
 
-Buku Rujukan Utama
+### Sekilas Materi Tutorial
+
+Tutorial dilakukan sebanyak 8 kali mencakup 9 modul. Topik-topik yang akan dibahas sebagai berikut:
+
+:::obj
+
+* Minggu 1 Apa Itu Ekonomi Pertanian?
+* Minggu 2 Ekonomi Pertanian Indonesia
+* Minggu 3 Tingkah Laku Konsumen dan Teori Permintaan
+* Minggu 4 Produksi dan Penggunaan Sumber Daya
+* Minggu 5 Pengambilan Keputusan Ekonomi
+* Minggu 6 Kombinasi Penggunaan Input
+* Minggu 7 Perencanaan Produksi dan Kombinasi Output
+* Minggu 8 Keseimbangan Pasar pada Persaingan Sempurna dan Persaingan Tidak Sempurna
+
+:::
+
+### Buku Rujukan Utama
 
 1. Arifin, Bustanul. 2017. Ekonomi Pertanian, edisi ke 2. Penerbit Universitas Terbuka.
 
-Buku Rujukan Tambahan:
+### Buku Rujukan Tambahan:
 
 1. Barkley, Andrew, dan Paul W. Barkley. 2013. Principles of agricultural economics. Routledge. 
 
