@@ -11,10 +11,12 @@
     ],
     "date": "2022-05-19",
     "categories": [],
-    "contents": "\r\nPENDAHULUAN\r\nPada modul ini kita akan memperluas model produksi satu input satu\r\noutput menjadi model multi input. Setelah mempelajari modul ini,\r\nmahasiswa diharapkan mampu menjelaskan konsep kombinasi penggunaan input\r\nlebih dari satu (satu output) dalam produksi pertanian. Secara khusus,\r\nmahasiswa diharapkan mampu menjelaskan:\r\n\r\nkonsep isoquant dan laju subtitusi marjinal;\r\n\r\nmaksimisasi keuntungan pada produksi dua input;\r\n\r\nmaksimisasi keuntungan pada dua input tanpa kendala;\r\n\r\nmaksimisasi keuntungan pada dua input dengan kendala.\r\n\r\nKEGIATAN BELAJAR\r\nA. PRODUKSI DENGAN DUA INPUT\r\nSecara matematis, produksi dengan dua input dapat dituliskan\r\nsebagai:\r\n\\(y = f(x_1,x_2)\\)\r\nJika input lebih dari dua, input berikutnya ditulis:\r\n\\(y =\r\nf(x_1,x_2/x_3,...,x_n)\\)\r\nB. ISOQUANT\r\nDAN LAJU SUBSTITUSI MARJINAL\r\nC. BENTUK-BENTUK\r\nISOQUANT\r\nD. MAKSIMISASI\r\nKEUNTUNGAN PADA DUA INPUT\r\n1. Maksimisasi Keuntungan\r\ntanpa Kendala\r\n2. Maksimisasi Keuntungan\r\ndengan Kendala\r\nE. PENGGANDA LAGRANGIAN\r\nF. GOVERNANSI EKONOMI PUPUK\r\nMAJEMUK\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-05-20T06:38:52+07:00",
-    "input_file": {}
+    "contents": "\r\n\r\nContents\r\nPENDAHULUAN\r\nKEGIATAN BELAJAR\r\nA. PRODUKSI DENGAN DUA\r\nINPUT\r\nB.\r\nISOQUANT DAN LAJU SUBSTITUSI MARJINAL\r\nC. BENTUK-BENTUK\r\nISOQUANT\r\nD. MAKSIMISASI\r\nKEUNTUNGAN PADA DUA INPUT\r\nE. PENGGANDA LAGRANGIAN\r\nF. GOVERNANSI EKONOMI\r\nPUPUK MAJEMUK\r\n\r\n\r\nPENDAHULUAN\r\nPada modul ini kita akan memperluas model produksi satu input satu\r\noutput menjadi model multi input. Setelah mempelajari modul ini,\r\nmahasiswa diharapkan mampu menjelaskan konsep kombinasi penggunaan input\r\nlebih dari satu (satu output) dalam produksi pertanian. Secara khusus,\r\nmahasiswa diharapkan mampu menjelaskan:\r\n\r\nkonsep isoquant dan laju subtitusi marjinal;\r\n\r\nmaksimisasi keuntungan pada produksi dua input;\r\n\r\nmaksimisasi keuntungan pada dua input tanpa kendala;\r\n\r\nmaksimisasi keuntungan pada dua input dengan kendala.\r\n\r\nKEGIATAN BELAJAR\r\nA. PRODUKSI DENGAN DUA INPUT\r\nSecara matematis, produksi dengan dua input dapat dituliskan\r\nsebagai:\r\n\\(y = f(x_1,x_2)\\)\r\nJika input lebih dari dua, input berikutnya ditulis:\r\n\\(y =\r\nf(x_1,x_2/x_3,...,x_n)\\)\r\nB. ISOQUANT\r\nDAN LAJU SUBSTITUSI MARJINAL\r\nC. BENTUK-BENTUK\r\nISOQUANT\r\nD. MAKSIMISASI\r\nKEUNTUNGAN PADA DUA INPUT\r\n1. Maksimisasi Keuntungan\r\ntanpa Kendala\r\n2. Maksimisasi Keuntungan\r\ndengan Kendala\r\nE. PENGGANDA LAGRANGIAN\r\nF. GOVERNANSI EKONOMI PUPUK\r\nMAJEMUK\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-05-19-kombinasi-penggunaan-input/img/rural.png",
+    "last_modified": "2022-05-22T12:41:17+07:00",
+    "input_file": {},
+    "preview_width": 400,
+    "preview_height": 301
   },
   {
     "path": "posts/2022-05-18-pengambilan-keputusan-ekonomi/",
