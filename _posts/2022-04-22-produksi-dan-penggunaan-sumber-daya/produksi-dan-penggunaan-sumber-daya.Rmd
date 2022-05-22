@@ -10,6 +10,8 @@ date: '2022-04-22'
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+preview: img/rural2.png
 ---
 
 ```{r setup, include=FALSE}
