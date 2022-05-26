@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-05-26-perencanaan-produksi-dan-kombinasi-output/",
+    "title": "Perencanaan Produksi dan Kombinasi Output",
+    "description": "Modul 7/ ESPA4415",
+    "author": [
+      {
+        "name": "Tedy Herlambang",
+        "url": "https://bangtedy.github.io"
+      }
+    ],
+    "date": "2022-05-26",
+    "categories": [],
+    "contents": "\r\nPENDAHULUAN\r\nPada modul ini kita akan membahas beberapa prinsip yang harus diambil\r\noleh petani dan pelaku usaha pertanian untuk perencanaan produksi yang\r\nmenghasilkan output lebih dari satu dan kombinasi input lebih dari satu\r\njuga tentunya.\r\nSecara khusus, mahasiswa diharapkan mampu menjelaskan:\r\n\r\nkonsep kurva kemungkinan produksi\r\n\r\nkonsep laju pertukaran produksi\r\n\r\nhubungan output pada proses maksimisasi keuntungan\r\n\r\nKEGIATAN\r\nBELAJAR: PERENCANAAN PRODUKSI DAN KOMBINASI OUTPUT\r\nA. PRODUKSI DENGAN DUA\r\nOUTPUT\r\nB. LAJU PERTUKARAN PRODUKSI\r\nC. HUBUNGAN ANTAR OUTPUT\r\nD. MAKSIMISASI\r\nKEUNTUNGAN PADA KASUS DUA OUTPUT\r\nE. MAKSIMISASI KEUNTUNGAN\r\n(BERKENDALA)\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-26T13:51:59+07:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-19-kombinasi-penggunaan-input/",
     "title": "Kombinasi Penggunaan Input",
     "description": "Modul 6",
