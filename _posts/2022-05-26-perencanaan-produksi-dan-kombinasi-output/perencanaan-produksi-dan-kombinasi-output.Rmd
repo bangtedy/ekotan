@@ -34,10 +34,55 @@ Secara khusus, mahasiswa diharapkan mampu menjelaskan:
 
 ### A. PRODUKSI DENGAN DUA OUTPUT
 
-### B. LAJU PERTUKARAN PRODUKSI
+- Kurva Kemungkinan Produksi (*Production Possibilities Frontier*): illustrates the 
+maximum output for different combinations of two products a firm can produce, given its existing resources.
+- Perhatikan Tabel berikut:
 
-### C. HUBUNGAN ANTAR OUTPUT
+![](ppf-canning.png)
+
+`Sumber: Penson, et.al (2018)`
+
+### B. LAJU PERTUKARAN PRODUKSI (*marginal rate of product transformation*)
+
+- Represents the rate at which the canning of fruit must contract (expand) for a one-case increase (decrease) in vegetable canning. 
+- The marginal product rate of transformation in absolute terms is given by
+
+$$marginal\ rate\ of\ product\ transformation = \frac {\Delta canned\ fruit}{\Delta canned\ vegetables}$$
+<br />
+
+![](sunspot-ppf.png)
+
+`Sumber: Penson, et.al (2018)`
+
+<br />
+
+### Konsep Iso-Revenue
+
+total revenue = (price of canned fruit * cases of canned fruit) 
+ + (price of canned vegetables * cases of canned vegetables) 
+ 
+slope of iso-revenue line = - price of vegetables/price of fruit 
+
 
 ### D. MAKSIMISASI KEUNTUNGAN PADA KASUS DUA OUTPUT
 
-### E. MAKSIMISASI KEUNTUNGAN (BERKENDALA)
+![](profit-max.png)
+
+`Sumber: Penson, et.al (2018)`
+
+<br />
+
+$$\frac {\Delta canned\ fruit}{\Delta canned\ vegetables}= - \frac {price\ of\ vegetables}{price\ of\ fruit}$$
+<br />
+
+![](graph-profit-max.png)
+
+`Sumber: Penson, et.al (2018)`
+
+<br />
+
+### Dampak Perubahan Harga terhadap Kombinasi Produk
+
+![](efek-perubahan-harga.png)
+
+`Sumber: Penson, et.al (2018)`

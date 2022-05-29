@@ -118,7 +118,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["efek-perubahan-harga.png","graph-profit-max.png","perencanaan-produksi-dan-kombinasi-output_files/anchor-4.2.2/anchor.min.js","perencanaan-produksi-dan-kombinasi-output_files/bowser-1.9.3/bowser.min.js","perencanaan-produksi-dan-kombinasi-output_files/distill-2.2.21/template.v2.js","perencanaan-produksi-dan-kombinasi-output_files/header-attrs-2.14/header-attrs.js","perencanaan-produksi-dan-kombinasi-output_files/jquery-3.6.0/jquery-3.6.0.js","perencanaan-produksi-dan-kombinasi-output_files/jquery-3.6.0/jquery-3.6.0.min.js","perencanaan-produksi-dan-kombinasi-output_files/jquery-3.6.0/jquery-3.6.0.min.map","perencanaan-produksi-dan-kombinasi-output_files/popper-2.6.0/popper.min.js","perencanaan-produksi-dan-kombinasi-output_files/tippy-6.2.7/tippy-bundle.umd.min.js","perencanaan-produksi-dan-kombinasi-output_files/tippy-6.2.7/tippy-light-border.css","perencanaan-produksi-dan-kombinasi-output_files/tippy-6.2.7/tippy.css","perencanaan-produksi-dan-kombinasi-output_files/tippy-6.2.7/tippy.umd.min.js","perencanaan-produksi-dan-kombinasi-output_files/webcomponents-2.0.0/webcomponents.js","ppf-canning.png","profit-max.png","sunspot-ppf.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1533,12 +1533,50 @@ id="kegiatan-belajar-perencanaan-produksi-dan-kombinasi-output">KEGIATAN
 BELAJAR: PERENCANAAN PRODUKSI DAN KOMBINASI OUTPUT</h2>
 <h3 id="a.-produksi-dengan-dua-output">A. PRODUKSI DENGAN DUA
 OUTPUT</h3>
-<h3 id="b.-laju-pertukaran-produksi">B. LAJU PERTUKARAN PRODUKSI</h3>
-<h3 id="c.-hubungan-antar-output">C. HUBUNGAN ANTAR OUTPUT</h3>
+<ul>
+<li>Kurva Kemungkinan Produksi (<em>Production Possibilities
+Frontier</em>): illustrates the maximum output for different
+combinations of two products a firm can produce, given its existing
+resources.</li>
+<li>Perhatikan Tabel berikut:</li>
+</ul>
+<p><img src="ppf-canning.png" /></p>
+<p><code>Sumber: Penson, et.al (2018)</code></p>
+<h3
+id="b.-laju-pertukaran-produksi-marginal-rate-of-product-transformation">B.
+LAJU PERTUKARAN PRODUKSI (<em>marginal rate of product
+transformation</em>)</h3>
+<ul>
+<li>Represents the rate at which the canning of fruit must contract
+(expand) for a one-case increase (decrease) in vegetable canning.</li>
+<li>The marginal product rate of transformation in absolute terms is
+given by</li>
+</ul>
+<p><span class="math display">\[marginal\ rate\ of\ product\
+transformation = \frac {\Delta canned\ fruit}{\Delta canned\
+vegetables}\]</span> <br /></p>
+<p><img src="sunspot-ppf.png" /></p>
+<p><code>Sumber: Penson, et.al (2018)</code></p>
+<p><br /></p>
+<h3 id="konsep-iso-revenue">Konsep Iso-Revenue</h3>
+<p>total revenue = (price of canned fruit * cases of canned fruit) +
+(price of canned vegetables * cases of canned vegetables)</p>
+<p>slope of iso-revenue line = - price of vegetables/price of fruit</p>
 <h3 id="d.-maksimisasi-keuntungan-pada-kasus-dua-output">D. MAKSIMISASI
 KEUNTUNGAN PADA KASUS DUA OUTPUT</h3>
-<h3 id="e.-maksimisasi-keuntungan-berkendala">E. MAKSIMISASI KEUNTUNGAN
-(BERKENDALA)</h3>
+<p><img src="profit-max.png" /></p>
+<p><code>Sumber: Penson, et.al (2018)</code></p>
+<p><br /></p>
+<p><span class="math display">\[\frac {\Delta canned\ fruit}{\Delta
+canned\ vegetables}= - \frac {price\ of\ vegetables}{price\ of\
+fruit}\]</span> <br /></p>
+<p><img src="graph-profit-max.png" /></p>
+<p><code>Sumber: Penson, et.al (2018)</code></p>
+<p><br /></p>
+<h3 id="dampak-perubahan-harga-terhadap-kombinasi-produk">Dampak
+Perubahan Harga terhadap Kombinasi Produk</h3>
+<p><img src="efek-perubahan-harga.png" /></p>
+<p><code>Sumber: Penson, et.al (2018)</code></p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
@@ -1548,6 +1586,15 @@ class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"><
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
